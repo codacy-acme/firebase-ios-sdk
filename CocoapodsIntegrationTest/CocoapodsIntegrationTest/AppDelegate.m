@@ -22,5 +22,8 @@
 @end
 
 @implementation AppDelegate
-
+- (void)foo:(NSError **)error {
+  // warn: method accepting NSError** should have a non-void
+  // return value
+}
 @end
